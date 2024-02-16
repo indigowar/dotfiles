@@ -5,6 +5,7 @@ args = ['-c', 'tmux attach || tmux new -t main']
 
 [window]
 decorations = 'Full'
+padding = { x = 5, y = 5}
 
 [font]
 normal = { family = 'FiraCode Nerd Font Mono' }
