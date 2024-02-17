@@ -17,3 +17,10 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
+alias vi="vim"
+alias vim="nvim"
+
+alias gts="git status --short"
+alias gta="git add"
+alias gtc="git commit"
+alias gtl="git log"
