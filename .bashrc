@@ -19,10 +19,15 @@ unset rc
 
 PATH=$PATH:/home/max/go/bin
 
-alias vi="vim"
-alias vim="nvim"
+alias sudo='sudo '
+alias dnf='dnf5'
 
-alias gts="git status --short"
-alias gta="git add"
-alias gtc="git commit"
-alias gtl="git log"
+alias vi='vim'
+alias vim='nvim'
+
+alias cat='bat'
+
+alias gts='git status --short'
+alias gta='git add'
+alias gtc='git commit'
+alias gtl='git log'
