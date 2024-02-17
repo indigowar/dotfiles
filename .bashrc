@@ -17,6 +17,8 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
+PATH=$PATH:/home/max/go/bin
+
 alias vi="vim"
 alias vim="nvim"
 
