@@ -1,3 +1,7 @@
+import = [
+    "~/dotfiles/alacritty/.config/alacritty/themes/themes/kanagawa_dragon.toml",
+]
+
 [shell]
 program = '/usr/bin/bash'
 args = ['-c', 'tmux attach || tmux new -t main']
@@ -12,4 +16,4 @@ decorations_theme_variant = 'Dark'
 
 [font]
 normal = { family = 'FiraCode Nerd Font Mono' }
-size = 12.0
+size = 11.0
