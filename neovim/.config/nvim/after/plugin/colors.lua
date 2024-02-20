@@ -6,10 +6,7 @@ function SetColor(colors)
     vim.api.nvim_set_hl(0, 'NormalFloat', { bg = 'none' })
 end
 
-SetColor()
+-- SetColor()
 
--- SetColor('catppuccin-mocha')
-
--- SetColor('gruvbox-material')
-
--- SetColor('gruvbox')
+vim.o.background = 'dark'
+SetColor('gruvbox')

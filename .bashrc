@@ -25,6 +25,7 @@ alias vim='nvim'
 
 alias cat='bat'
 alias ls='eza'
+alias l="ls"
 alias ll='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
