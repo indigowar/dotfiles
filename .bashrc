@@ -32,7 +32,7 @@ alias lla='ls -la'
 
 alias tree='eza --tree --group-directories-first'
 
-alias gts='git status --short'
+alias gts='git status --short --untracked-files'
 alias gta='git add'
 alias gtc='git commit'
 alias gtl='git log'
