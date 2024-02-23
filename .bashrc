@@ -36,6 +36,23 @@ alias gts='git status --short --untracked-files'
 alias gta='git add'
 alias gtc='git commit'
 alias gtl='git log'
+
+alias txls="tmux list-sessions"
+alias txks="tmux kill-session"
+
+txns() {
+    if [ $# -eq 0 ]; then
+        echo "USAGE: txns {session_name}"
+        return 1
+    fi
+
+    subcommand="tmux new -dP -t $1"
+    echo "$subcommand"
+
+    cmd="tmux switchc -t `$subcommand`"
+    $cmd
+}
+
 . "$HOME/.cargo/env"
 
 [ -f "/home/max/.ghcup/env" ] && source "/home/max/.ghcup/env" # ghcup-env
