@@ -53,6 +53,15 @@ txns() {
     $cmd
 }
 
+txcs() {
+    if [ $# -eq 0 ]; then
+        echo "USAGE: txns {session_name}"
+        return 1
+    fi
+
+    tmux switchc -t "$1"
+}
+
 . "$HOME/.cargo/env"
 
 [ -f "/home/max/.ghcup/env" ] && source "/home/max/.ghcup/env" # ghcup-env
