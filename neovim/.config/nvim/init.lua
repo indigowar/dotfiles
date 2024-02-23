@@ -1,1 +1,1 @@
-require('indigowar')
+require("indigowar")
