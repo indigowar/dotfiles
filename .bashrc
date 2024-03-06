@@ -16,7 +16,21 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
+# Additional Path directories
+
 PATH=$PATH:/home/max/go/bin
+
+. "$HOME/.cargo/env"
+
+[ -f "/home/max/.ghcup/env" ] && source "/home/max/.ghcup/env" # ghcup-env
+
+# Prompt configuration
+
+GREEN="\[$(tput setaf 2)\]"
+RESET="\[$(tput sgr0)\]"
+
+PS1="${GREEN}\w ${RESET}> "
+# Aliases
 
 alias dnf='dnf5'
 
@@ -62,6 +76,5 @@ txcs() {
     tmux switchc -t "$1"
 }
 
-. "$HOME/.cargo/env"
-
-[ -f "/home/max/.ghcup/env" ] && source "/home/max/.ghcup/env" # ghcup-env
+alias txlw="tmux list-windows"
+alias txkw="tmux kill-window"

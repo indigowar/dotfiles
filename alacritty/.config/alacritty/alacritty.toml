@@ -1,4 +1,5 @@
 import = [
+    # "~/dotfiles/alacritty/.config/alacritty/themes/themes/kanagawa_dragon.toml",
     "~/dotfiles/alacritty/.config/alacritty/themes/themes/breeze.toml",
 ]
 
@@ -6,15 +7,15 @@ import = [
 program = '/usr/bin/bash'
 args = ['-c', 'tmux attach || tmux new -t main']
 
-
 [window]
 decorations = 'Full'
 padding = { x = 5, y = 5}
 dynamic_title = true
 dimensions = { columns = 120, lines = 40} 
 decorations_theme_variant = 'Dark'
-
+# opacity = 0.90
 
 [font]
-normal = { family = 'FiraCode Nerd Font Mono' }
+# normal = { family = 'FiraCode Nerd Font Mono' }
+normal = { family = 'JetBrains Mono NL'}
 size = 11.0
