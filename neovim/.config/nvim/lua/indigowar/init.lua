@@ -4,4 +4,4 @@ require("indigowar.auto")
 
 require("indigowar.lazy")
 
-vim.cmd.colorscheme("visual_studio_code")
+vim.cmd.colorscheme("kanagawa-dragon")

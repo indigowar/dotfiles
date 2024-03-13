@@ -16,13 +16,18 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
+HITSIZE=-1
+HITFILESIZE=-1
+
 # Additional Path directories
 
-PATH=$PATH:/home/max/go/bin
+PATH=$PATH:/home/max/go/bin:/home/max/.local/bin
 
 . "$HOME/.cargo/env"
 
 [ -f "/home/max/.ghcup/env" ] && source "/home/max/.ghcup/env" # ghcup-env
+
+
 
 # Prompt configuration
 

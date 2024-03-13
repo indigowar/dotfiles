@@ -27,4 +27,12 @@ return {
 		lazy = false,
 		priority = 100,
 	},
+
+	{ "rebelot/kanagawa.nvim" },
+
+	{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+
+	{ "EdenEast/nightfox.nvim" },
+
+	{ "rose-pine/neovim", name = "rose-pine" },
 }
