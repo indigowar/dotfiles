@@ -17,5 +17,5 @@ decorations_theme_variant = 'Dark'
 
 [font]
 # normal = { family = 'FiraCode Nerd Font Mono' }
-normal = { family = 'JetBrains Mono NL'}
+normal = { family = 'JetBrainsMono Nerd Font'}
 size = 11.0
