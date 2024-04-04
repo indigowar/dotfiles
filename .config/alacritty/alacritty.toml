@@ -1,6 +1,8 @@
 import = [
-    # "~/dotfiles/alacritty/.config/alacritty/themes/themes/kanagawa_dragon.toml",
-    "~/dotfiles/alacritty/.config/alacritty/themes/themes/breeze.toml",
+    # "~/dotfiles/.config/alacritty/alacritty-theme/themes/breeze.toml",
+    # "~/dotfiles/.config/alacritty/alacritty-theme/themes/tokyo-night-storm.toml",
+    # "~/dotfiles/.config/alacritty/alacritty-theme/themes/gruvbox_dark.toml",
+    "~/dotfiles/.config/alacritty/alacritty-theme/themes/kanagawa_dragon.toml",
 ]
 
 [shell]
@@ -17,5 +19,6 @@ decorations_theme_variant = 'Dark'
 
 [font]
 # normal = { family = 'FiraCode Nerd Font Mono' }
-normal = { family = 'JetBrainsMono Nerd Font'}
-size = 11.0
+# normal = { family = 'JetBrainsMonoNL Nerd Font'}
+normal = { family = 'ComicShannsMono Nerd Font'}
+size = 10.5
