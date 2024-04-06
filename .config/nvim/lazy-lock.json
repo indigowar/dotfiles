@@ -34,5 +34,6 @@
   "vimtex": { "branch": "master", "commit": "3275a1778ae93cc88318a849759d689fe7143eb8" },
   "visual_studio_code": { "branch": "master", "commit": "d185c6d75e577aedda9bb9dcc8b8b4b410b540dd" },
   "which-key.nvim": { "branch": "main", "commit": "4433e5ec9a507e5097571ed55c02ea9658fb268a" },
-  "witch": { "branch": "main", "commit": "95fa12f7096624b068a2ac9b1cb1418d4b498e6f" }
+  "witch": { "branch": "main", "commit": "95fa12f7096624b068a2ac9b1cb1418d4b498e6f" },
+  "zen-mode.nvim": { "branch": "main", "commit": "78557d972b4bfbb7488e17b5703d25164ae64e6a" }
 }
