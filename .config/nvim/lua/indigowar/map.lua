@@ -3,7 +3,7 @@
 
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex, { desc = "Go back to netrw" })
 
-vim.keymap.set("n", "<leader>x", vim.cmd([[":bdelete!<CR>"]]), { desc = "Close the buffer" })
+vim.keymap.set("n", "<leader>x", ":bdelete!<CR>", { desc = "Close the buffer" })
 
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
