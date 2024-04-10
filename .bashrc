@@ -41,13 +41,13 @@ alias vi='vim'
 alias vim='nvim'
 
 # alias cat='bat'
-# alias ls='eza'
-# alias l="ls"
-# alias ll='ls -l'
-# alias la='ls -a'
-# alias lla='ls -la'
+alias ls='eza'
+alias l="ls"
+alias ll='ls -l'
+alias la='ls -a'
+alias lla='ls -la'
 
-# alias tree='eza --tree --group-directories-first'
+alias tree='eza --tree --group-directories-first'
 
 alias gts='git status --short --untracked-files'
 alias gta='git add'
