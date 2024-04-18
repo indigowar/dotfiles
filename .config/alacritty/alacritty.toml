@@ -19,8 +19,8 @@ decorations_theme_variant = 'Dark'
 # opacity = 0.90
 
 [font]
+normal = { family = 'ComicShannsMono Nerd Font'}
 # normal = { family = 'FiraCode Nerd Font Mono' }
 # normal = { family = 'JetBrainsMonoNL Nerd Font'}
-normal = { family = 'ComicShannsMono Nerd Font'}
 # normal = { family = 'Hack Nerd Font'}
-size = 10
+size = 9

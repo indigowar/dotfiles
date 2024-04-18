@@ -21,7 +21,7 @@ HITFILESIZE=-1
 
 # Additional Path directories
 
-PATH=$PATH:/home/max/go/bin:/home/max/.local/bin
+PATH=$PATH:/home/max/go/bin:/home/max/.local/bin:/home/max/.local/scripts
 
 . "$HOME/.cargo/env"
 
@@ -53,6 +53,7 @@ alias gts='git status --short --untracked-files'
 alias gta='git add'
 alias gtc='git commit'
 alias gtl='git log'
+alias gtd='git diff'
 
 alias txls="tmux list-sessions"
 alias txks="tmux kill-session"
