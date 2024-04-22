@@ -11,7 +11,8 @@ program = '/usr/bin/bash'
 args = ['-c', 'tmux attach || tmux new -t main']
 
 [window]
-decorations = 'Full'
+# decorations = 'Full'
+decorations = 'None'
 padding = { x = 5, y = 5}
 dynamic_title = true
 dimensions = { columns = 120, lines = 40} 
@@ -19,8 +20,8 @@ decorations_theme_variant = 'Dark'
 # opacity = 0.90
 
 [font]
-normal = { family = 'ComicShannsMono Nerd Font'}
+# normal = { family = 'ComicShannsMono Nerd Font'}
 # normal = { family = 'FiraCode Nerd Font Mono' }
-# normal = { family = 'JetBrainsMonoNL Nerd Font'}
+normal = { family = 'JetBrainsMonoNL Nerd Font'}
 # normal = { family = 'Hack Nerd Font'}
 size = 9
