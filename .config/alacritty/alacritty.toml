@@ -11,8 +11,8 @@ program = '/usr/bin/bash'
 args = ['-c', 'tmux attach || tmux new -t main']
 
 [window]
-# decorations = 'Full'
-decorations = 'None'
+decorations = 'Full'
+# decorations = 'None'
 padding = { x = 5, y = 5}
 dynamic_title = true
 dimensions = { columns = 120, lines = 40} 

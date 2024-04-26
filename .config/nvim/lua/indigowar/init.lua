@@ -5,4 +5,4 @@ require("indigowar.colors")
 
 require("indigowar.lazy")
 
-SetColorscheme("kanagawa-dragon")
+SetColorscheme("visual_studio_code")
