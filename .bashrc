@@ -25,6 +25,7 @@ PATH=$PATH:/home/max/go/bin:/home/max/.local/bin:/home/max/.local/scripts
 
 . "$HOME/.cargo/env"
 
+[ -f "/home/max/.ghcup/env" ] && . "/home/max/.ghcup/env" # ghcup-env
 
 # Prompt configuration
 
@@ -82,4 +83,3 @@ txcs() {
 alias txlw="tmux list-windows"
 alias txkw="tmux kill-window"
 
-[ -f "/home/max/.ghcup/env" ] && . "/home/max/.ghcup/env" # ghcup-env
