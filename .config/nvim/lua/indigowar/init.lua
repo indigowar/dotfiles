@@ -5,4 +5,4 @@ require("indigowar.colors")
 
 require("indigowar.lazy")
 
-SetColorscheme("visual_studio_code")
+-- SetColorscheme("visual_studio_code")
