@@ -5,4 +5,5 @@ require("indigowar.colors")
 
 require("indigowar.lazy")
 
--- SetColorscheme("cyberdream")
+vim.o.bg = "dark"
+vim.cmd([[colorscheme kanagawa-wave]])
