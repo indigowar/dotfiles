@@ -6,4 +6,4 @@ require("indigowar.colors")
 require("indigowar.lazy")
 
 vim.o.bg = "dark"
-vim.cmd([[colorscheme kanagawa-wave]])
+vim.cmd([[colorscheme github_dark_default]])

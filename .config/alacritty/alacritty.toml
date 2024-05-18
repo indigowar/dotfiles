@@ -1,9 +1,5 @@
 import = [
-    # "~/dotfiles/.config/alacritty/alacritty-theme/themes/breeze.toml",
-    # "~/dotfiles/.config/alacritty/alacritty-theme/themes/tokyo-night-storm.toml",
-    # "~/dotfiles/.config/alacritty/alacritty-theme/themes/gruvbox_dark.toml",
-    "~/dotfiles/.config/alacritty/alacritty-theme/themes/kanagawa_dragon.toml",
-    # "~/dotfiles/.config/alacritty/alacritty-theme/themes/rose-pine.toml",
+    "~/.dotfiles/.config/alacritty/alacritty-theme/themes/github_dark_default.toml",
 ]
 
 [shell]
@@ -13,15 +9,11 @@ args = ['-c', 'tmux attach || tmux new -t main']
 [window]
 decorations = 'Full'
 # decorations = 'None'
-padding = { x = 5, y = 5}
+padding = { x = 5, y = 5 }
 dynamic_title = true
-dimensions = { columns = 120, lines = 40} 
+dimensions = { columns = 120, lines = 40 }
 decorations_theme_variant = 'Dark'
-# opacity = 0.90
 
 [font]
-normal = { family = 'ComicShannsMono Nerd Font'}
-# normal = { family = 'FiraCode Nerd Font Mono' }
-# normal = { family = 'JetBrainsMonoNL Nerd Font'}
-# normal = { family = 'Hack Nerd Font'}
+normal = { family = 'ComicShannsMono Nerd Font' }
 size = 9
