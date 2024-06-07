@@ -13,6 +13,7 @@ padding = { x = 5, y = 5 }
 dynamic_title = true
 dimensions = { columns = 120, lines = 40 }
 decorations_theme_variant = 'Dark'
+opacity = 0.85
 
 [font]
 normal = { family = 'ComicShannsMono Nerd Font' }
