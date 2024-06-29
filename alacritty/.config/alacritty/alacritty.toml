@@ -1,5 +1,6 @@
 import = [
-	"~/.dotfiles/.config/alacritty/alacritty-theme/themes/gruvbox_dark.toml"
+	# "~/.local/share/alacritty/themes/themes/github_light.toml"
+	"~/.local/share/alacritty/themes/themes/kanagawa_dragon.toml"
 ]
 
 [shell]
@@ -7,14 +8,14 @@ program = '/usr/bin/bash'
 args = ['-c', 'tmux attach || tmux new -t main']
 
 [window]
-# decorations = 'Full'
-decorations = 'None'
+decorations = 'Full'
+# decorations = 'None'
 padding = { x = 5, y = 5 }
 dynamic_title = true
 dimensions = { columns = 120, lines = 40 }
-decorations_theme_variant = 'Dark'
-opacity = 0.85
+#opacity = 0.85
 
 [font]
 normal = { family = 'ComicShannsMono Nerd Font' }
+# normal = { family = 'FiraCode Nerd Font Mono' }
 size = 9

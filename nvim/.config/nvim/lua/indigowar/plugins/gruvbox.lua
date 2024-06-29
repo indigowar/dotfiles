@@ -26,7 +26,7 @@ return {
 		transparent_mode = false,
 	},
 	config = function()
-		vim.o.background = "dark"
-		vim.cmd([[colorscheme gruvbox]])
+		-- vim.o.background = "dark"
+		-- vim.cmd([[colorscheme gruvbox]])
 	end,
 }
