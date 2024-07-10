@@ -45,6 +45,8 @@ alias gtc='git commit'
 alias gtl='git log'
 alias gtd='git diff'
 
+alias kctl='kubectl'
+
 parse_git_branch(){ git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1) /'; }
 
 hostname_if_ssh(){
@@ -53,5 +55,5 @@ hostname_if_ssh(){
   fi
 }
 
-export PS1='$(hostname_if_ssh)\w $(parse_git_branch)🐼 '
+export PS1='$(hostname_if_ssh)\w $(parse_git_branch)-> '
 
