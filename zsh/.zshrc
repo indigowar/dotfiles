@@ -16,7 +16,7 @@ alias ll="ls -l"
 alias la="ls -a"
 alias lla="ls -la"
 
-alias tree="eza --tree --group-directories-frist"
+alias tree="eza --tree --group-directories-first"
 
 alias gts="git status --short --untracked-files"
 alias gta="git add"
