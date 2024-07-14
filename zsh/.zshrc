@@ -6,6 +6,12 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+PATH=$PATH:"$HOME.local/scripts"
+PATH=$PATH:"$HOME/.local/bin"
+PATH=$PATH:"$HOME/go/bin"
+
+. "$HOME/.cargo/env"
+
 # Aliases
 alias vi="/usr/bin/vim"
 alias vim="nvim"
