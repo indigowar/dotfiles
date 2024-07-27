@@ -1,5 +1,5 @@
 import = [
-	"~/.local/share/alacritty/themes/themes/kanagawa_dragon.toml"
+	"~/.local/share/alacritty-theme/themes/kanagawa_dragon.toml"
 ]
 
 [shell]

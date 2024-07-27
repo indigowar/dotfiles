@@ -1,4 +1,4 @@
-export ZSH="$HOME/.oh-my-zsh"
+export ZSH="$HOME/.local/share/omz"
 
 ZSH_THEME="arrow"
 
