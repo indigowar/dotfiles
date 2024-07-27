@@ -1,20 +1,20 @@
 import = [
-	"~/.local/share/alacritty-theme/themes/kanagawa_dragon.toml"
+    "~/.local/share/alacritty/alacritty-theme/themes/kanagawa_dragon.toml",
 ]
 
 [shell]
-program = '/usr/bin/bash'
-args = ['-c', 'tmux attach || tmux new -t main']
+program = "/usr/bin/bash"
+args = ["-c", "tmux attach || tmux new -t main"]
 
 [window]
-decorations = 'Full'
-decorations_theme_variant = 'Dark'
+decorations = "Full"
+decorations_theme_variant = "Dark"
 padding = { x = 5, y = 5 }
 dynamic_title = true
 dimensions = { columns = 120, lines = 40 }
 
 [font]
-normal = { family = 'FiraCode Nerd Font Mono' }
+normal = { family = "FiraCode Nerd Font Mono" }
 size = 11
 
 [env]
