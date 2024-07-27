@@ -16,3 +16,6 @@ dimensions = { columns = 120, lines = 40 }
 [font]
 normal = { family = 'FiraCode Nerd Font Mono' }
 size = 11
+
+[env]
+term = "xterm-256color"
