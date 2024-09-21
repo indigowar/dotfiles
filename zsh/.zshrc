@@ -1,6 +1,6 @@
 export ZSH="$HOME/.local/share/omz"
 
-ZSH_THEME="arrow"
+ZSH_THEME="cloud"
 
 plugins=(git)
 
@@ -30,7 +30,9 @@ alias gtc="git commit"
 alias gtl="git log"
 alias gtd="git diff"
 
-alias kctl="kubectl"
+alias m="make"
+alias d="docker"
+alias k="kubectl"
 
 alias txks="tmux kill-session"
 alias txkw="tmux kill-window"
