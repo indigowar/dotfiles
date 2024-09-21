@@ -16,7 +16,7 @@ PATH=$PATH:"$HOME/go/bin"
 alias vi="/usr/bin/vim"
 alias vim="nvim"
 
-alias ls="eza"
+alias ls="lsd"
 alias l="ls"
 alias ll="ls -l"
 alias la="ls -a"

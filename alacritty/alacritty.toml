@@ -14,7 +14,7 @@ dynamic_title = true
 dimensions = { columns = 120, lines = 40 }
 
 [font]
-normal = { family = "Zed Mono Extended" }
+normal = { family = "CaskaydiaCove Nerd Font" }
 size = 11
 
 [env]
