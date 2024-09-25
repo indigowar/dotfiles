@@ -1,6 +1,6 @@
 export ZSH="$HOME/.local/share/omz"
 
-ZSH_THEME="cloud"
+ZSH_THEME="half-life"
 
 plugins=(git)
 
