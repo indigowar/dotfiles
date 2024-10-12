@@ -1,5 +1,5 @@
 import = [
-    "~/.local/share/alacritty/alacritty-theme/themes/gruvbox_dark.toml",
+    "~/.local/share/alacritty/alacritty-theme/themes/tokyo-night.toml",
 ]
 
 [shell]

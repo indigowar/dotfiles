@@ -1,6 +1,6 @@
 export ZSH="$HOME/.local/share/omz"
 
-ZSH_THEME="awesomepanda"
+ZSH_THEME="minimal"
 
 plugins=(git)
 
@@ -11,6 +11,8 @@ PATH=$PATH:"$HOME/.local/bin"
 PATH=$PATH:"$HOME/go/bin"
 
 . "$HOME/.cargo/env"
+
+[ -f "/home/max/.ghcup/env" ] && . "/home/max/.ghcup/env" # ghcup-env
 
 # Aliases
 alias vi="/usr/bin/vim"
@@ -30,9 +32,11 @@ alias gtc="git commit"
 alias gtl="git log"
 alias gtd="git diff"
 
-alias m="make"
 alias d="docker"
 alias k="kubectl"
+alias m="make"
+alias v="vim"
 
 alias txks="tmux kill-session"
 alias txkw="tmux kill-window"
+
