@@ -20,7 +20,8 @@ return {
 		},
 
 		config = function()
-			-- vim.cmd("colorscheme kanagawa-dragon")
+			-- vim.o.background = "dark"
+			-- vim.cmd([[colorscheme tokyonight-night]])
 		end,
 	},
 
@@ -51,6 +52,10 @@ return {
 			dim_inactive = false,
 			transparent_mode = false,
 		},
+		config = function()
+			vim.o.background = "dark"
+			vim.cmd([[colorscheme gruvbox]])
+		end,
 	},
 
 	{
@@ -60,8 +65,20 @@ return {
 		opts = {},
 
 		config = function()
-			vim.o.background = "dark"
-			vim.cmd([[colorscheme tokyonight-night]])
+			-- vim.o.background = "dark"
+			-- vim.cmd([[colorscheme tokyonight-night]])
+		end,
+	},
+
+	{
+		"projekt0n/github-nvim-theme",
+		name = "github-theme",
+		lazy = false,
+		priority = 1000,
+		config = function()
+			require("github-theme").setup({})
+
+			-- vim.cmd([[colorscheme github_light]])
 		end,
 	},
 }

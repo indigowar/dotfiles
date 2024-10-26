@@ -10,6 +10,8 @@ PATH=$PATH:"$HOME.local/scripts"
 PATH=$PATH:"$HOME/.local/bin"
 PATH=$PATH:"$HOME/go/bin"
 
+zmodload zsh/zprof
+
 . "$HOME/.cargo/env"
 
 [ -f "/home/max/.ghcup/env" ] && . "/home/max/.ghcup/env" # ghcup-env
@@ -18,7 +20,7 @@ PATH=$PATH:"$HOME/go/bin"
 alias vi="/usr/bin/vim"
 alias vim="nvim"
 
-alias ls="lsd"
+alias ls="eza"
 alias l="ls"
 alias ll="ls -l"
 alias la="ls -a"
@@ -34,7 +36,6 @@ alias gtd="git diff"
 
 alias d="docker"
 alias k="kubectl"
-alias m="make"
 alias v="vim"
 
 alias txks="tmux kill-session"
