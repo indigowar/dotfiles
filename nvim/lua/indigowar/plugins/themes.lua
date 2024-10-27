@@ -53,8 +53,8 @@ return {
 			transparent_mode = false,
 		},
 		config = function()
-			vim.o.background = "dark"
-			vim.cmd([[colorscheme gruvbox]])
+			-- vim.o.background = "dark"
+			-- vim.cmd([[colorscheme gruvbox]])
 		end,
 	},
 
@@ -78,7 +78,7 @@ return {
 		config = function()
 			require("github-theme").setup({})
 
-			-- vim.cmd([[colorscheme github_light]])
+			vim.cmd([[colorscheme github_light]])
 		end,
 	},
 }

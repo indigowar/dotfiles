@@ -1,7 +1,7 @@
 [general]
 import = [
-    "~/.local/share/alacritty/alacritty-theme/themes/gruvbox_dark.toml",
-    # "~/.local/share/alacritty/alacritty-theme/themes/github_light.toml",
+    # "~/.local/share/alacritty/alacritty-theme/themes/gruvbox_dark.toml",
+    "~/.local/share/alacritty/alacritty-theme/themes/github_light.toml",
     # "~/.local/share/alacritty/alacritty-theme/themes/tokyo-night.toml",
 ]
 
@@ -10,7 +10,7 @@ shell = { program = "/usr/bin/bash", args = ["-c", "tmux attach || tmux new -t m
 
 [window]
 decorations = "Full"
-decorations_theme_variant = "Dark"
+# decorations_theme_variant = "Dark"
 padding = { x = 5, y = 5 }
 dynamic_title = true
 dimensions = { columns = 120, lines = 40 }

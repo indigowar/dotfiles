@@ -2,7 +2,7 @@ export ZSH="$HOME/.local/share/omz"
 
 ZSH_THEME="minimal"
 
-plugins=(git)
+# plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
