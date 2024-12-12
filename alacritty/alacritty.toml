@@ -16,7 +16,7 @@ dynamic_title = true
 dimensions = { columns = 120, lines = 40 }
 
 [font]
-normal = { family = "CaskaydiaCove NF" }
+normal = { family = "CommitMono Nerd Font", style = "Regular" }
 size = 11
 
 [env]

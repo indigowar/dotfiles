@@ -37,6 +37,7 @@ alias gtd="git diff"
 alias d="docker"
 alias k="kubectl"
 alias v="vim"
+alias lg="lazygit"
 
 alias txks="tmux kill-session"
 alias txkw="tmux kill-window"
