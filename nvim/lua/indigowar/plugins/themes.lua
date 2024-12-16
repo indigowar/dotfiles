@@ -21,7 +21,7 @@ return {
 
 		config = function()
 			-- vim.o.background = "dark"
-			-- vim.cmd([[colorscheme tokyonight-night]])
+			-- vim.cmd([[colorscheme kanagawa-dragon]])
 		end,
 	},
 
