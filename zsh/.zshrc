@@ -35,6 +35,7 @@ alias gtl="git log"
 alias gtd="git diff"
 
 alias d="docker"
+alias dc="docker compose"
 alias k="kubectl"
 alias v="vim"
 alias lg="lazygit"
