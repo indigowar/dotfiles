@@ -1,0 +1,16 @@
+- [x] Fuzzy finder
+    - [x] By files
+    - [x] By buffers
+    - [x] Inside buffer
+- [ ] Good looking UI.
+- [x] Language support
+    - [x] Auto-completion
+    - [x] Syntax highlighting
+    - [ ] Refactoring utils
+- [ ] Navigation in project.
+    - [ ] A tree.
+- [ ] Buffers
+    - [ ] Little UI feature that shows the buffers.
+    - [ ] Work with buffers beyond closing them.
+- [ ] Tmux helper
+- [ ] Obsidian

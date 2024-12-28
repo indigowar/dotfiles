@@ -2,7 +2,7 @@ export ZSH="$HOME/.local/share/omz"
 
 ZSH_THEME="minimal"
 
-# plugins=(git)
+plugins=(zsh-autosuggestions fast-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 

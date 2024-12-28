@@ -11,6 +11,10 @@ download:
 	@sh -c "ZSH=~/.local/share/omz $$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh) --keep-zshrc --unattended"
 	@rm ~/.zshrc
 
+	@echo "Installing custom plugins..."
+	@git clone https://github.com/zsh-users/zsh-autosuggestions ~/.local/share/omz/custom/plugins/zsh-autosuggestions
+	@git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ~/.local/share/omz/custom/plugins/fast-syntax-highlighting
+
 	@echo "Dependencies are installed."
 	@echo "Run make install to install configuration"
 
