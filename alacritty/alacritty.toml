@@ -2,8 +2,6 @@
 import = [
     # "~/.local/share/alacritty/alacritty-theme/themes/gruvbox_dark.toml",
     "~/.local/share/alacritty/alacritty-theme/themes/github_light.toml",
-    # "~/.local/share/alacritty/alacritty-theme/themes/tokyo-night.toml",
-    # "~/.local/share/alacritty/alacritty-theme/themes/kanagawa_dragon.toml",
 ]
 
 [terminal]
@@ -17,7 +15,8 @@ dynamic_title = true
 dimensions = { columns = 120, lines = 40 }
 
 [font]
-normal = { family = "FiraCode Nerd Font", style = "Medium" }
+# normal = { family = "FiraCode Nerd Font", style = "Regular" }
+normal = { family = "JetBrainsMono NFM", style = "Medium" }
 size = 11
 
 [env]

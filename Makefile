@@ -26,6 +26,10 @@ install: download
 	@mkdir -p ~/.config/alacritty
 	@stow -t ~/.config/alacritty alacritty
 
+	@echo "Installing ghostty config..."
+	@mkdir -p ~/.config/ghostty
+	@stow -t ~/.config/ghostty ghostty
+
 	@echo "Installing NeoVim config..."
 	@mkdir -p ~/.config/nvim
 	@stow -t ~/.config/nvim nvim
@@ -44,6 +48,7 @@ install: download
 uninstall:
 	@echo "Uninstall configuration..."
 	@rm ~/.config/alacritty -rf
+	@rm ~/.config/ghostty -rf
 	@rm ~/.config/nvim -rf
 	@rm ~/.local/scripts -rf
 	@rm ~/.config/tmux -rf

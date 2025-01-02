@@ -1,10 +1,8 @@
 return {
 	"nvim-treesitter/nvim-treesitter",
 	build = ":TSUpdate",
-	event = { "BufReadPost", "BufNewFile" },
-
 	opts = {
-		ensure_installed = { "c", "lua", "vim", "markdow" },
+		ensure_installed = { "c", "lua", "vim", "markdown" },
 		sync_install = false,
 		auto_install = true,
 

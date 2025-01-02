@@ -1,0 +1,18 @@
+theme = "Adwaita"
+
+initial-command = "tmux attach || tmux new -t main"
+
+confirm-close-surface = false
+
+font-family = "JetBrainsMono NFM"
+font-style = "Medium"
+font-size = 11
+
+window-padding-x = 5
+window-padding-y = 5
+
+window-theme = "ghostty"
+
+gtk-adwaita = true
+gtk-tabs-location = hidden
+adw-toolbar-style = raised

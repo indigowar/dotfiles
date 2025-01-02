@@ -43,3 +43,5 @@ alias lg="lazygit"
 alias txks="tmux kill-session"
 alias txkw="tmux kill-window"
 
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
